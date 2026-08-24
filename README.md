@@ -221,8 +221,8 @@ The author is not responsible for:
 مخزن را Clone کنید:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/weederace/ATFBot
+cd ATFBot
 ```
 
 یا پروژه را به‌صورت ZIP دانلود کرده و Extract کنید.
