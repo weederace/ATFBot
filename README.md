@@ -51,8 +51,8 @@ The bot should work on operating systems supported by Python and PyAutoGUI, incl
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/weederace/ATFBot
+cd ATFBot
 ```
 
 Or simply download the repository as a ZIP file and extract it.
