@@ -33,8 +33,21 @@ The bot uses **multi-threading**, **dynamic coordinate detection**, and **slight
 
 ## 📋 Requirements
 
+Before running the bot, make sure you have:
+
 * Python **3.x**
-* `pyautogui`
+* `pip`
+* The dependencies listed in [`requirements.txt`](requirements.txt)
+
+### Dependencies
+
+The project uses the following Python library:
+
+```text
+pyautogui
+```
+
+All required dependencies are already listed in the project's `requirements.txt` file.
 
 ### Supported Platforms
 
@@ -62,13 +75,23 @@ Or simply download the repository as a ZIP file and extract it.
 Open a terminal or Command Prompt inside the project directory and run:
 
 ```bash
-pip install pyautogui
+pip install -r requirements.txt
 ```
 
-If your system uses `pip3`:
+This will automatically install all required Python dependencies listed in `requirements.txt`.
+
+If your system uses `pip3`, run:
 
 ```bash
-pip3 install pyautogui
+pip3 install -r requirements.txt
+```
+
+### 3. Verify Requirements
+
+Your `requirements.txt` file should contain:
+
+```text
+pyautogui
 ```
 
 ---
@@ -95,7 +118,7 @@ The bot will automatically save the cursor coordinates.
 
 Next, the bot will ask you to move your mouse over the **CLAIM** button.
 
-Again, you will have **5 seconds** to position your cursor.
+Again, you will have **5 seconds** to position your mouse.
 
 ### 4. Bot Starts Automatically
 
@@ -136,9 +159,19 @@ in the terminal.
 ATF-Auto-Clicker-Bot/
 │
 ├── bot.py
+├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
+
+### 📄 File Description
+
+| File               | Description                                 |
+| ------------------ | ------------------------------------------- |
+| `bot.py`           | Main bot script                             |
+| `requirements.txt` | Python dependencies required by the project |
+| `README.md`        | Project documentation                       |
+| `LICENSE`          | Project license                             |
 
 ---
 
@@ -201,8 +234,25 @@ The author is not responsible for:
 
 ## 📋 پیش‌نیازها
 
+قبل از اجرای ربات، مطمئن شوید موارد زیر را دارید:
+
 * Python نسخه **3.x**
-* کتابخانه `pyautogui`
+* `pip`
+* فایل `requirements.txt`
+
+### کتابخانه‌های مورد نیاز
+
+کتابخانه مورد نیاز پروژه در فایل `requirements.txt` قرار دارد:
+
+```text
+pyautogui
+```
+
+برای نصب تمام کتابخانه‌های مورد نیاز، کافی است دستور زیر را اجرا کنید:
+
+```bash
+pip install -r requirements.txt
+```
 
 ### سیستم‌عامل‌های قابل استفاده
 
@@ -227,18 +277,30 @@ cd ATFBot
 
 یا پروژه را به‌صورت ZIP دانلود کرده و Extract کنید.
 
-### ۲. نصب کتابخانه مورد نیاز
+### ۲. نصب Requirements
 
-ترمینال یا CMD را در پوشه پروژه باز کرده و دستور زیر را اجرا کنید:
+ترمینال یا CMD را در پوشه پروژه، یعنی جایی که فایل `requirements.txt` قرار دارد، باز کنید.
+
+سپس دستور زیر را اجرا کنید:
 
 ```bash
-pip install pyautogui
+pip install -r requirements.txt
 ```
+
+این دستور تمام کتابخانه‌های مورد نیاز پروژه را به‌صورت خودکار نصب می‌کند.
 
 در بعضی سیستم‌ها ممکن است لازم باشد از `pip3` استفاده کنید:
 
 ```bash
-pip3 install pyautogui
+pip3 install -r requirements.txt
+```
+
+### ۳. محتوای فایل Requirements
+
+فایل `requirements.txt` باید شامل موارد زیر باشد:
+
+```text
+pyautogui
 ```
 
 ---
@@ -304,9 +366,19 @@ Ctrl + C
 ATF-Auto-Clicker-Bot/
 │
 ├── bot.py
+├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
+
+### 📄 توضیح فایل‌ها
+
+| فایل               | توضیحات                            |
+| ------------------ | ---------------------------------- |
+| `bot.py`           | فایل اصلی اجرای ربات               |
+| `requirements.txt` | لیست کتابخانه‌های مورد نیاز Python |
+| `README.md`        | مستندات پروژه                      |
+| `LICENSE`          | مجوز استفاده از پروژه              |
 
 ---
 
